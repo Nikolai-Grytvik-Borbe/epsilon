@@ -2,20 +2,24 @@
 import {defineNuxtConfig} from 'nuxt/config'
 
 export default defineNuxtConfig({
-    runtimeConfig: {
-        backendUrl: ''
-    },
-    modules: [
-        'vuetify-nuxt-module'
-    ],
-    vuetify: {
-        moduleOptions: {
-            /* module specific options */
-        },
-        vuetifyOptions: {
-            /* vuetify options */
-        }
-    }
+  runtimeConfig: {
+      backendUrl: ''
+  },
+
+  modules: [
+      'vuetify-nuxt-module'
+  ],
+
+  vuetify: {
+      moduleOptions: {
+          /* module specific options */
+      },
+      vuetifyOptions: {
+          /* vuetify options */
+      }
+  },
+
+  compatibilityDate: '2024-10-30'
 })
 
 

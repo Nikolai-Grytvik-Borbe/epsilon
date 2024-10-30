@@ -1,33 +1,29 @@
-<script lang="ts" setup>
-</script>
+<script lang="ts" setup></script>
 
 <template>
-  <v-container>
-    <v-row>
-      <v-col class="d-flex justify-center mb-6">
-        <NuxtLink to="/search">
-          <v-btn color="primary" append-icon="mdi-account-search">
-            Users
-          </v-btn>
-        </NuxtLink>
-      </v-col>
-      <v-col class="d-flex justify-center mb-6">
-        <NuxtLink to="/beer">
-          <v-btn color="primary" append-icon="mdi-beer">
-            Beer
-          </v-btn>
-        </NuxtLink>
-      </v-col>
-      <v-col class="d-flex justify-center mb-6">
-        <NuxtLink to="/deposit">
-          <v-btn color="primary" append-icon="mdi-cash">
-            Deposit
-          </v-btn>
-        </NuxtLink>
-      </v-col>
-    </v-row>
-  </v-container>
+	<v-container>
+		<v-row>
+			<v-col class="d-flex justify-center mb-6">
+				<NuxtLink to="/search">
+					<v-btn color="primary" append-icon="mdi-account-search">
+						Users
+					</v-btn>
+				</NuxtLink>
+			</v-col>
+			<v-col class="d-flex justify-center mb-6">
+				<NuxtLink to="/beer">
+					<v-btn color="primary" append-icon="mdi-beer"> Beer </v-btn>
+				</NuxtLink>
+			</v-col>
+			<v-col class="d-flex justify-center mb-6">
+				<NuxtLink to="/deposit">
+					<v-btn color="primary" append-icon="mdi-cash">
+						Deposit
+					</v-btn>
+				</NuxtLink>
+			</v-col>
+		</v-row>
+	</v-container>
 </template>
 
-<style>
-</style>
+<style></style>
