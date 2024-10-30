@@ -62,12 +62,6 @@ async function spend() {
     <v-row>
       <v-col>
         <v-form>
-          <v-text-field v-model="depositValue" type="number"></v-text-field>
-          <v-btn :disabled="!user" color="success" @click="deposit" append-icon="mdi-bank-plus">Deposit</v-btn>
-        </v-form>
-      </v-col>
-      <v-col>
-        <v-form>
           <v-text-field v-model="spendValue" type="number"></v-text-field>
           <v-btn :disabled="!user" color="primary" @click="spend" append-icon="mdi-beer">Spend</v-btn>
         </v-form>
